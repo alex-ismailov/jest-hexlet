@@ -1,4 +1,1 @@
-const reverse = (str) => str.split('').reverse().join('');
-
-export default reverse;
-
+export default (str) => str.split('').reverse().join('');
