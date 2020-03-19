@@ -1,4 +1,4 @@
-import makeStack from '../src/internal-lib.js';
+import { makeStack } from '../src/internal-lib.js';
 
 test('stack`s main flow', () => {
   const stack = makeStack();
