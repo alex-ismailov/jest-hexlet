@@ -1,5 +1,5 @@
 ## jest-hexlet
 
-[![.github/workflows/nodejs.yml](https://github.com/alex-ismailov/jest-hexlet/workflows/.github/workflows/nodejs.yml/badge.svg)](https://github.com/alex-ismailov/jest-hexlet/actions)
+[![Node.js CI](https://github.com/alex-ismailov/jest-hexlet/workflows/Node.js%20CI/badge.svg)](https://github.com/alex-ismailov/jest-hexlet/actions)
 
 
