@@ -1,0 +1,22 @@
+name: Node.js CI
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [13.x]
+
+    steps:
+    - name: git clone jest-hexlet 
+    - uses: actions/checkout@v2
+    - name: Install dependencies
+      run: make install
+    - name: Run Linter
+      run: make lint
